@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+/* change colors and background colors afterwards */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    display: flex;
+}
+
+.side {
+    background-color: red;
+    width: 15vw;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+}
+
+.main {
+    background-color: yellow;
+    width: 85vw;
+    height: 100vh;
+}
+
+.side nav {
+    padding: 70px 50px;
+}
+
+.side nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 25px 0;
+    color: white;
+}
+
+.side nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.info {
+    background-color: aqua;
+    height: 70vh;
+    width: 70vw;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo {
+    /* width: 320px;
+    text-align: center;
+    padding-top: 125px;
+    font-size: 35px;
+    color: blueviolet; */
+    /* line-height: 40px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 35px;
+    padding-bottom: 75px;
+    padding-left: 45px;
+}
+
+.hello {
+    font-size: 50px;
+    padding-left: 10px;
+}
+
+.name {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.study {
+    font-size: 35px;
+}
+
+.devpic {
+    width: 320px;
+
+}
+
+
+.devpic img {
+    height: 50vh;
+    width: 18vw;
+    margin: 80px 10px;
+    padding-left: 20px;
+
+}
+
+.buttons {
+    margin: 10px;
+}
+
+.buttons button {
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+/* Styles for contact page */
+
+.contactform {
+    padding: 0 80px;
+    padding-top: 80px;
+
+}
+
+.contactform h2 {
+
+    font-size: 34px;
+    margin-bottom: 32px;
+    /* margin-top: 55px;
+    font-size: 34px;
+    padding-right: 20px; */
+}
+
+.contactform form div {
+    padding: 2px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div label {
+    font-size: 25px;
+}
+
+.contactform form div input {
+    border-radius: 10px;
+    margin: 6px 0;
+    padding: 3px;
+    font-size: 15px;
+
+
+}
+
+.detail4 {
+    width: 20vw;
+}
+
+.detail1 {
+    width: 18vw;
+
+}
+
+.detail2 {
+    width: 12vw;
+}
+
+#formcheck {
+    flex-direction: row;
+}
+
+#formcheck input {
+    margin: 3px 0;
+}
+
+.btn{
+    padding: 7px 10px;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: dodgerblue;
+    color: white;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.intro h1{
+    padding-top: 45px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.intro p{
+    
+    padding: 5px 10px 5px 15px;
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.intro h2{
+padding-left: 30px;
+margin-top: 20px;
+}
+
+.skillcontainer {
+    padding: 12px;
+    padding-left: 30px;
+}
+.skill{
+    width: 250px;
+    height: 10px;
+    background-color: blue;
+    
+}
+.education h1{
+    padding-top: 45px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.primary{
+    margin-top: 40px;
+}
+.primary p{
+    
+    padding-left: 40px;
+    font-size: 22px;
+    margin-bottom: -15px;
+}
+.per{
+    margin-left: 48px;
+}
+.secondary{
+    margin-top: 35px; 
+}
+.secondary p{
+    padding-left: 40px;
+    font-size: 22px;
+    margin-bottom: -15px;
+}
+.results h3{
+    margin-top: 45px; 
+    padding-left: 40px;
+    font-size: 28px;
+}
+.results p{
+    padding-left: 40px;
+    font-size: 22px;
+    padding-top: 20px ;
+}
+/* 
+.side{
+    transform:translate(-443px,0px);
+    position: absolute;
+} */
+.ham{
+    position: absolute;
+    top:10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.project-1{
+    margin: 35px;
+}
+.project-1 p{
+    font-size: 20px;
+}
+.first{
+    margin-top: 20px;
+}
+
+.project-2 {
+    margin: 35px;
+}
+.project-2 p{
+    font-size: 20px;
+}
+.second{
+    margin-top: 20px;
+}
+    
+
